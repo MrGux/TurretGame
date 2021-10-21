@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    background-image:url(Images/SteampunkBackground.jpg);
+    background-attachment: fixed;
+}
+div{
+    font-family:"palatino linotype", serif;
+}
+.wrap{
+    width: 800px;
+    height:5800px;
+    position: relative;
+    margin: auto;
+    background: #e3e3e3;
+    border-right: 3px ridge black;
+    border-left: 3px ridge black;
+}
+.box{
+    width:250px;
+    height:70px;
+    margin:auto;
+    background:orangered;
+    position: absolute;
+    left: -35px;
+    top: 30px;
+    box-shadow:-17px 10px brown;
+}
+.topbox{
+    width:800px;
+    height:170px;
+    background: linear-gradient(darkorange, #964B00);
+    position:absolute;
+    left:0px;
+    right:0px;
+    border-top: 3px ridge black;
+    border-bottom: 3px ridge black;
+}
+.heading{
+    font-size:45pt;
+    font-family:"palatino linotype", serif;
+    position:absolute;
+    left: 350px;
+    top: -35px;
+    text-shadow:3px 3px yellow;
+}
+.content{
+    font-family:"palatino linotype", serif;
+    font-size:15pt;
+    font-weight:400;
+    position:absolute;
+    left:30px;
+    top:190px;
+    right:30px;
+}
+.title{
+    font-size:30pt;
+    font-weight:600;
+    position:absolute;
+    left:15px;
+    top:8px;
+}
+.listbox{
+    width:230px;
+    height:230px;
+    background: linear-gradient(darkorange, #964B00);
+    position:absolute;
+    left:240px;
+    right:100px;
+    border-style:ridge;
+    border-color:black;
+    border-width:3px;
+}
+ul{
+    list-style:lower-roman;
+    position:absolute;
+    left:15px;
+}
+.hr{
+    border:4px outset orange;
+    border-radius: 3px;
+}
+.ContentTitle{
+    font-size:25pt;
+    font-weight:700;
+    text-align:center;
+    z-index:1;
+}
+.sns{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.spear{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.hatchet{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.imagetext{
+    z-index: 2;
+    position:absolute;
+    top:2490px;
+    left:270px;
+    color:red;
+}
+.noullink{
+    text-decoration: none;
+}
+.containerone{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.containertwo{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.parasix{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.paraseven{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.bottombox{
+    text-align:center;
+    font-size:30pt;
+    font-weight:700;
+    width:800px;
+    height:50px;
+    background: linear-gradient(#e66465, darkorange);
+    position:absolute;
+    top:100%;
+    left:-3px;
+    right:0px;
+    border-style:ridge;
+    border-color:black;
+    border-width:3px;
+}
+.imagetexttwo{
+    z-index: 2;
+    position:absolute;
+    top:3440px;
+    left:270px;
+    color:red;
+    font-weight:700;
+}

@@ -1,0 +1,53 @@
+body{
+    background-image: url("Images/CottonCandySky.jpg");
+    background-color: teal;
+    color:#FFC0CB;
+    font-family:"palatino linotype";
+}
+h1{
+    font-family:"Bodoni MT";
+    font-weight:700;
+    font-variant:small-caps;
+    font-size:30pt;
+    font-stretch:extra-condensed;
+}
+h2{
+    color: #33FFD7;
+    text-shadow: -3px 3px #FF0000;
+    text-transform:lowercase;
+    writing-mode: vertical-lr;
+    text-orientation:upright;
+    height:250px;
+}
+h3{
+    border-style:groove;
+    border-color:limegreen;
+    border-width:9px;
+    width:25em;
+    text-decoration-style:wavy;
+    text-decoration-line:underline;
+    text-decoration-color:wheat;
+}
+h4{
+    font-style:italic;
+    quotes:"<<" ">>";
+    letter-spacing:2px;
+    word-spacing:8px;
+
+}
+h5{
+    box-shadow: 5px 5px 10px red;
+    box-sizing: content-box;
+    height:2em;
+    width:25em;
+    border:solid orangered 1px;
+    background-color:darkgreen;
+
+}
+p{
+    border-bottom:gold;
+    border-top:honeydew;
+    border-left:orange;
+    border-right:teal;
+    border-style:solid;
+}

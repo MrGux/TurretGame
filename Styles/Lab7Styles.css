@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@font-face { font-family: Lab7Font; src: url(../Fonts/MilkCarton.otf_/MilkCarton.otf); }
+
+body{
+    margin: 0px;
+    background-image:url(Images/download.jpg);
+    background-attachment: fixed;
+}
+div{
+    font-family:"palatino linotype", serif;
+}
+.wrap{
+    width: 800px;
+    height:3600px;
+    position: relative;
+    margin: auto;
+    background: #e3e3e3;
+    border-right: 3px ridge black;
+    border-left: 3px ridge black;
+}
+.box{
+    width:250px;
+    height:70px;
+    margin:auto;
+    background:#ff8c00;
+    position: absolute;
+    left: -35px;
+    top: 30px;
+    box-shadow:-17px 10px #FF4500;
+}
+.topbox{
+    width:800px;
+    height:170px;
+    background:lightblue;
+    position:absolute;
+    left:0px;
+    right:0px;
+    border-top: 3px ridge black;
+    border-bottom: 3px ridge black;
+}
+.heading{
+    font-size:45pt;
+    font-family:"palatino linotype", serif;
+    position:absolute;
+    left: 350px;
+    top: -35px;
+    text-shadow:3px 3px #FFA500;
+}
+.content{
+    font-family:"palatino linotype", serif;
+    font-size:15pt;
+    font-weight:400;
+    position:absolute;
+    left:30px;
+    top:190px;
+    right:30px;
+}
+.title{
+    font-size:30pt;
+    font-weight:600;
+    position:absolute;
+    left:65px;
+    top:12px;
+}
+.listbox{
+    width:230px;
+    height:230px;
+    background:lightblue;
+    position:absolute;
+    left:240px;
+    right:100px;
+    border-style:ridge;
+    border-color:black;
+    border-width:3px;
+}
+ul{
+    list-style-image: url('Images/SwordAndShieldIcon.jpg');
+    position:absolute;
+    left:15px;
+}
+.hr{
+    border:4px outset orange;
+    border-radius: 3px;
+}
+.ContentTitle{
+    font-size:25pt;
+    font-weight:700;
+    text-align:center;
+    z-index:1;
+}
+.sns{
+    border-style:groove;
+    border-color:red;
+    border-width:6px;
+}
+.spear{
+    border-style:outset;
+    border-color:green;
+    border-width:6px;
+}
+.hatchet{
+    border-style:inset;
+    border-color:orange;
+    border-width:6px;
+}
+.imagetext{
+    z-index: 2;
+    position:absolute;
+    top:430px;
+    left:270px;
+    color:red;
+}
+.noullink{
+    text-decoration: none;
+}
+.containerone{
+    border-style:ridge;
+    border-width:8px;
+    border-radius:4px;
+    border-color:darkred;
+}
+.containertwo{
+    border-width: 10px;
+    border-style:solid;
+    border-image:url("Images/borderimage.png") 25 round;
+}
+.parasix{
+    font-family: Tangerine;
+    font-size:20pt;
+    font-weight:600;
+    border-style:ridge;
+    border-width:8px;
+    border-radius:4px;
+    border-color:lightskyblue;
+}
+.paraseven{
+    font-family: Lab7Font, sans-serif;
+    border-style:groove;
+    border-color:yellow;
+    border-width:6px;
+}
+.bottombox{
+    text-align:center;
+    font-size:30pt;
+    font-weight:700;
+    width:800px;
+    height:50px;
+    background: linear-gradient(#e66465, darkorange);
+    position:absolute;
+    top:100%;
+    left:-3px;
+    right:0px;
+    border-style:ridge;
+    border-color:black;
+    border-width:3px;
+}
